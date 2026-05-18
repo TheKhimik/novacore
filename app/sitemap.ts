@@ -1,21 +1,23 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://novacore-gamma.vercel.app/";
+
   return [
     {
-      url: "https://novacore-gamma.vercel.app/",
+      url: baseUrl,
       lastModified: new Date(),
     },
     {
-      url: "https://novacore-gamma.vercel.app/#features",
+      url: `${baseUrl}/#features`,
       lastModified: new Date(),
     },
     {
-      url: "https://novacore-gamma.vercel.app/#pricing",
+      url: `${baseUrl}/#pricing`,
       lastModified: new Date(),
     },
     {
-      url: "https://novacore-gamma.vercel.app/#contact",
+      url: `${baseUrl}/#contact`,
       lastModified: new Date(),
     },
   ];
