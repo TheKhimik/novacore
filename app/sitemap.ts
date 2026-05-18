@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://novacore-gamma.vercel.app/";
+  const baseUrl = "https://novacore-gamma.vercel.app";
 
   return [
     {
