@@ -13,9 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NovaCore",
-  description: "Professional Discord community solutions",
-
+  title: "NovaCore | Discord Server Setup & Automation Agency",
+  description:
+    "We build high-performance Discord communities with automation, moderation systems, verification flows, and growth strategies for creators and brands.",
+  keywords: [
+    "discord server setup",
+    "discord automation",
+    "discord bot agency",
+    "community building",
+    "discord growth",
+  ],
+  openGraph: {
+    title: "NovaCore | Discord Automation Agency",
+    description:
+      "Professional Discord server setups and automation systems for growing communities.",
+    url: "https://novacore-gamma.vercel.app/",
+    siteName: "NovaCore",
+    type: "website",
+  },
   verification: {
     google: "NaMc3Z_9tkVwG9Z-HYWYkyeftVO88SsY-5-i5krVejw",
   },
